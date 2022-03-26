@@ -68,18 +68,18 @@ with open(budget_data) as csv_file:
 
 #6) export text file with the results
 
-    file = open("output.txt" , "w") 
+    file = open("output.txt" , "w")
 
     file.write("Financial Analysis")
-    file.write("/n")
+    file.write("\n")
     file.write("-----------------------------------------")
-    file.write("/n")
+    file.write("\n")
     file.write(f"Total Months: {len(TotalMonths)}")
-    file.write("/n")
+    file.write("\n")
     file.write(f"Total Profits: {sum(TotalProfit)}")
-    file.write("/n")
+    file.write("\n")
     file.write(f"Average Sum: $ {round(sum(Change))/len(TotalMonths)}")
-    file.write("/n")
+    file.write("\n")
     file.write(f"Greatest Increase in Profits : {TotalMonths[IncreaseMonth]} (${(int(IncreaseProfit))})")
-    file.write("/n")
+    file.write("\n")
     file.write(f"Greatest Decrease in Profits : {TotalMonths[DecreaseMonth]} (${(int(DecreaseProfit))})")
