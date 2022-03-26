@@ -58,7 +58,7 @@ with open(election_data) as csv_file:
     file.write("\n")
     file.write(f'{key} : {round(VoteValue/len(TotalVotes)*100, 2)} % ({VoteValue})')
     file.write("\n")
-    file.write("-----------------------------------------")
+    file.write("-----------------------------------------") 
     file.write("\n")
     file.write(f'{key} : {round(VoteValue/len(TotalVotes)*100, 2)} % ({VoteValue})')
     file.write("\n")
