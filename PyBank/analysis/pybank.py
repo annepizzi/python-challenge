@@ -68,8 +68,8 @@ with open(budget_data) as csv_file:
 
 #6) export text file with the results
 
-    file = open("output.txt" , "w")
-    
+    file = open("output.txt" , "w") 
+
     file.write("Financial Analysis")
     file.write("/n")
     file.write("-----------------------------------------")
